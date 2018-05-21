@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="267px" height="257px" viewBox="0 0 267 257" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_edit</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.631000906">
+        <g id="tellall-website/home-copy-6" transform="translate(-153.000000, -3250.000000)">
+            <g id="ic_edit" transform="translate(142.000000, 3240.000000)">
+                <polygon id="Bounds" points="0 0 291 0 291 291 0 291"></polygon>
+                <polygon id="Icon" stroke="#1B1458" stroke-width="2" points="46.0557567 265 179 132.055757 145.944243 99 13 231.944243"></polygon>
+                <path d="M190.980909,120 L216.704703,92.1569113 C217.056433,91.7762035 217.058975,91.1898482 216.710559,90.806105 L186.357624,57.3755441 C185.986375,56.9666523 185.353946,56.9361369 184.945054,57.307386 C184.923393,57.3270527 184.902606,57.3476605 184.882752,57.3691499 L159,85.3842932 L190.980909,120 Z" id="Icon" stroke="#1B1458" stroke-width="2"></path>
+                <polygon id="Star" stroke="#1B1458" stroke-width="2" points="122.5 62.1422619 107.976201 70 110.75 53.3570437 99 41.5704365 115.238101 39.1422619 122.5 24 129.761899 39.1422619 146 41.5704365 134.25 53.3570437 137.023799 70"></polygon>
+                <polygon id="Star" stroke="#1B1458" stroke-width="2" points="242.5 51.1422619 227.976201 59 230.75 42.3570437 219 30.5704365 235.238101 28.1422619 242.5 13 249.761899 28.1422619 266 30.5704365 254.25 42.3570437 257.023799 59"></polygon>
+                <polygon id="Star-Copy" stroke="#1B1458" stroke-width="2" points="240 178.384213 218.36881 190 222.5 165.397369 205 147.973689 229.184405 144.384213 240 122 250.815595 144.384213 275 147.973689 257.5 165.397369 261.63119 190"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="332px" height="240px" viewBox="0 0 332 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 11</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="tellall-website/home-copy-6" transform="translate(-149.000000, -1314.000000)">
+            <g id="Group-11" transform="translate(149.000000, 1315.000000)">
+                <polyline id="Path-10-Copy" stroke="#676198" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" transform="translate(166.087608, 118.972656) scale(-1, 1) translate(-166.087608, -118.972656) " points="2 163.479882 2 0.753035959 330.175215 0.753035959 330.175215 237.192277"></polyline>
+                <text id="Question" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" letter-spacing="0.5" fill="#1F1760">
+                    <tspan x="130.414551" y="47">Question</tspan>
+                </text>
+                <rect id="Rectangle" stroke="#7974A2" x="126.5" y="66.5" width="157" height="20"></rect>
+                <rect id="Rectangle-Copy-4" fill="#6558D2" opacity="0.146795743" x="0" y="23" width="97" height="207"></rect>
+                <rect id="Rectangle-Copy-3" stroke="#7974A2" x="127.5" y="107.5" width="82" height="20"></rect>
+                <rect id="Rectangle-Copy-5" fill="#E8E7F3" x="4" y="66" width="93" height="16"></rect>
+                <rect id="Rectangle-Copy-4" fill="#B2A9FC" opacity="0.146795743" x="0" y="2" width="328" height="21"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
