@@ -110,7 +110,13 @@ ul,p{
 img.expand { 
     width: 45em; }
 
-
+.how it works {
+	width: 80%;
+	display: flex;
+	align-content: center;
+	background-color: #F2F2F2;
+	height: auto;
+}
 
 /*========================Media Query================================*/
 @media(max-width: 1199px){
