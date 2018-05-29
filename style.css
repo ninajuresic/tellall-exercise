@@ -63,6 +63,13 @@ ul,p{
 	width: 100%;
 	border-radius: 0;
 }
+.btn-dark {
+	background-color: #1B1458;
+    border-color: #1B1458;
+}
+
+
+}
 
 .landing-title {
 	font-size: 64px !important;
@@ -134,7 +141,7 @@ ul,p{
 .navlinks-endright {
     display: flex;
 	justify-content: flex-end;
-	justify-items: center;
+	
     
 }
 
@@ -156,7 +163,8 @@ img.expand {
     height: auto;
 }
 img.icon { 
-	width: 2em; 
+	width: 2.1em;
+	padding-right: 10px; 
 }
 .medium {
 	width: 20em;
@@ -215,6 +223,7 @@ img.icon {
 .pricing-boxes {
 	background-color: white;
 	padding-top: 20px;
+	color: #9B9B9B;
 
 }
 .form-group {
@@ -261,6 +270,22 @@ img.icon {
 	background-color: #F8F8F8;
 	padding-top: 50px;
 	padding-bottom: 50px;
+}
+.pricing-sml-text {
+	margin: 10px 0 10px;
+}
+.feature-box-pricing {
+	display: flex;
+	padding-left: 3em;
+	
+}
+.heading-tag {
+	color: black;
+	font-weight: 400;
+}
+.hint {
+	padding-left: 2em;
+    padding-right: 2em;
 }
 /*========================Media Query================================*/
 @media(max-width: 1199px){
