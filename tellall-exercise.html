@@ -21,7 +21,31 @@
     </head>
     <body>
 <!--  Start Navbar -->
-<nav class="container-fluid navbar-fixed-top" style="background-color: white">
+<nav class="navbar navbar-default navbar-fixed-top" data-spy="affix">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed button-sml" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">SIGNUP</button>
+            <a class="navbar-brand 123" href="#"><img src="img/logo.svg" class="img-responsive hidden-xs" alt="logo" style="width: 4em"><img src="img/logo_mobile.svg" class="img-responsive visible-xs" alt="logo"></a>
+          </div>
+      
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="align-navbar">
+              <ul class="nav navbar-nav navbar-right" >
+                <li><a href="#second" class="nav-link navlinks-text">How it works</a></li>
+                <li><a href="#work" class="nav-link navlinks-text">Pricing</a></li>
+                <li><a href="#team" class="nav-link navlinks-text">Log in</a></li>
+                <li class="hidden-xs"><a href="#contact" class="nav-link"><button class="button-sml">SIGNUP</button></a></li>
+                <li class="visible-xs"><a href="#contact" class="nav-link"><button class="button-sml">SIGNUP</button></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+<!--<nav class="container-fluid navbar-fixed-top" style="background-color: white">
     <div class="container navbar-element" data-spy="affix">
         <div class="col-md-6 brand">
             <h3>Tellall</h3>
@@ -40,8 +64,8 @@
 <!-- Start Banner -->
 <section class="">
     <div class="container banner">
-    <div class="col-md-6 space200 landing-text ">
-        <h1 class="landing-title">Be the future</h1>
+    <div class="col-md-6  landing-text ">
+        <h3 class="big-bold-text">Be the future</h3>
         <h3 class="big-light-text">Let Aleksa know your business and share it with the world.</h3>
 
        <div class="form-group">
@@ -54,7 +78,7 @@
         </div>
         <p>I don’t have facebook page</p>
     </div>
-    <div class="landing-img col-md-6 space200">
+    <div class="landing-img col-md-6 ">
         <img src="img/landing img.png" alt="landing-img" class="expand">
     </div>
     </div>
@@ -71,37 +95,37 @@
   <section class="how_it_works space40">
   <div class="container ">
 
-      <div class="col-md-12 space80">
-          <div class="col-md-6 ">
+      <div class="col-md-12 col-sm-12 colums-flex ">
+          <div class="col-md-6  col-sm-6  ">
             <div>
                <h3 class="big-light-text ">First you create “skill” which is knowledge that you share with Alexa so she and world can know about your business</h3>
             </div>
           </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-sm-6  ">
                  <img src="img/img 1.svg" alt="landing-img" class="medium img-right ">
             </div>    
       </div>
       
 
-      <div class="col-md-12 space80">
-            <div class="col-md-6">
+      <div class="col-md-12 col-sm-12 colums-flex column-reverse-mobile">
+            <div class="col-md-6 col-sm-6 ">
                     <img src="img/img 2.svg" alt="landing-img" class="medium">
                </div> 
-            <div class="col-md-6 ">
+            <div class="col-md-6 col-sm-6 ">
               <div>
-                 <h3 class="big-light-text " style="direction: rtl;">Then you create basic questions and answers about your business</h3>
+                 <h3 class="big-light-text right ">Then you create basic questions and answers about your business</h3>
               </div>
             </div>
                  
         </div>
 
-        <div class="col-md-12 space80">
-                <div class="col-md-6 ">
+        <div class="col-md-12 col-sm-12 colums-flex">
+                <div class="col-md-6 col-sm-6 ">
                   <div>
                      <h3 class="big-light-text ">If you already have a facebook page TellAll can import a lot from there and let you start faster and easier</h3>
                   </div>
                 </div>
-                  <div class="col-md-6">
+                  <div class="col-md-6 col-sm-6 ">
                        <img src="img/img 3.svg" alt="landing-img" class="medium img-right " >
                   </div>    
         </div> 
@@ -114,8 +138,8 @@
   <div class="what-are-you-waiting-for text-center">
       <h3 class="white-light-text">So what are you waiting for, start from:</h3>
       <div class="flex_row">
-          <button type="submit" class=" button-sml button-light ">Your facebook page</button>
-          <button type="submit" class=" button-sml button-light ">From Blank</button>
+          <button type="submit" class=" button-sml button-light ">YOUR FACEBOOK PAGE</button>
+          <button type="submit" class=" button-sml button-light ">FROM BLANK</button>
       </div>
   </div>
 
@@ -123,11 +147,11 @@
 
   <!-- Start pericing-->
   <section class="text-center pricing-background">
-        <h3 class="big-light-text" style="font-weight: 400">More power, more clients.</h3>
+        <h3 class="big-bold-text" style="font-weight: 400">More power, more clients.</h3>
         <p style="font-weight: 200; font-size: 20px;">Find perfect plan for you.</p>
    <div class="container">   
-   <div class="col-md-12 row space30">    
-    <div class="col-md-3 text-center" >
+   <div class="col-md-12 col-sm-12 row space30">    
+    <div class="col-md-3 col-sm-4 col-xs-12 text-center space20" >
         <div class="pricing-boxes">
                    <h4 class="heading-tag">FREE</h4>
                     <p class="hint text-center">For magna magna, condimentum eu ultrices.</p>
@@ -145,11 +169,11 @@
                                 <p class="pricing-sml-text">Upload</p>
                             </div>    
                         </div>
-                    <button class="button-sml btn-wide btn-dark space20">CURENT</button>
+                    <button class="button-sml btn-wide btn-dark space20" style="background-color: gray; border-color: gray">CURENT</button>
          </div>            
     </div>
 
-    <div class="col-md-3 text-center" >
+    <div class="col-md-3 col-sm-4 col-xs-12 text-center space20" >
             <div class="pricing-boxes">
                    <h4 class="heading-tag">BASIC</h4>
                     <p class="hint text-center">For magna magna, condimentum eu ultrices.</p>
@@ -167,11 +191,11 @@
                                 <p class="pricing-sml-text">Upload</p>
                             </div>    
                         </div>
-                    <button class="button-sml btn-wide btn-dark space20">CURENT</button>
+                    <button class="button-sml btn-wide btn-dark space20" >CHOOSE BASIC</button>
             </div>        
     </div>
 
-    <div class="col-md-3 text-center" >
+    <div class="col-md-3 col-sm-4 col-xs-12 text-center space20" >
             <div class="pricing-boxes">
                    <h4 class="heading-tag">ECONIMIC</h4>
                     <p class="hint text-center">For magna magna, condimentum eu ultrices.</p>
@@ -189,11 +213,11 @@
                                 <p class="pricing-sml-text">Upload</p>
                             </div>    
                         </div>
-                    <button class="button-sml btn-wide btn-dark space20">CURENT</button>
+                    <button class="button-sml btn-wide btn-dark space20">CHOOSE ECONIMIC</button>
             </div>        
     </div>
 
-    <div class="col-md-3 text-center" >
+    <div class="col-md-3 col-sm-4 col-xs-12 text-center space20" >
             <div class="pricing-boxes">
                    <h4 class="heading-tag">PROFESIONAL</h4>
                     <p class="hint text-center">For magna magna, condimentum eu ultrices.</p>
@@ -211,7 +235,7 @@
                                 <p class="pricing-sml-text">Upload</p>
                             </div>    
                         </div>
-                    <button class="button-sml btn-wide btn-dark space20">CURENT</button>
+                    <button class="button-sml btn-wide btn-dark space20">CHOOSE PROFESIONAL</button>
             </div>        
     </div>
 
@@ -223,32 +247,33 @@
   <!-- End pricing-->
 
   
-        <div class="container">
-            <div class="landing-img col-md-6 space200">
+        <div class="container colums-flex">
+            <div class="landing-img col-md-6 col-sm-6 col-xs-12 space100">
                 <img src="img/ic_edit.svg" alt="make magic" class="medium">
             </div>
-            <div class="col-md-6 space200 landing-text ">
-                <h2>Your business have a facebook page, use your url and automaticaly import skills. </h2>
+            <div class="col-md-6 col-sm-6 col-xs-12 space100 ">
+                <h2 class="big-light-text">Your business have a facebook page, use your url and automaticaly import skills. </h2>
     
-            <div class="form-group">
-                <input type="email" name="email" maxlength="320" pattern="^[a-z0-9!#$%\x26'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%\x26'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$" class="form-control" required="required"/>
-    
-                <label class="control-label" for="input">Your Email</label><i class="bar"></i>
-            </div>
-        
                 <div class="form-group">
-                    <button type="submit" class="btn btn-default" value="Send your message">GET STARTED</button>
+                    <input type="email" name="email" maxlength="320" pattern="^[a-z0-9!#$%\x26'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%\x26'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$" class="form-control" required="required"/>
+                    <label class="control-label" for="input">Your Email</label><i class="bar"></i>
+                </div>
+                
+                <div class="form-group">
+                   <button type="submit" class=" button-md" style="width: 100%" value="Send your message">GET STARTED</button>
                 </div>
             </div>
          </div>
 
-        <div class="what-are-you-waiting-for text-center">
-                <h2>Try out TellAll for 14 days with no strings attached and no payment info required.</h2>
-                <div>
-                    <button>SIGNUP</button>
-                    <button>LOGIN</button>
-                </div>
-            </div>
+
+            <div class="what-are-you-waiting-for text-center space100">
+                    <h3 class="white-light-text">Try out TellAll for 14 days with no strings attached and no payment info required</h3>
+                    <div class="flex_row">
+                        <button type="submit" class=" button-sml button-light ">SIGNUP</button>
+                        <button type="submit" class=" button-sml button-light ">LOGIN</button>
+                    </div>
+                </div>    
+
             <!-- Start footer -->
 <footer>
         <div class="container">
